@@ -14,7 +14,6 @@ import javax.persistence.Embeddable;
 @Embeddable
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @NoArgsConstructor
-
 public class Endereco {
     private String cep;
     private String complemento;

@@ -17,7 +17,6 @@ import java.util.List;
 @Entity
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @NoArgsConstructor
-
 public class Sacola{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
